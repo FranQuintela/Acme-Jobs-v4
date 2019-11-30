@@ -9,6 +9,10 @@
 
     alter table `authenticated` 
        drop 
+       foreign key `FK40xava9g49cdh6x14x0qn181h`;
+
+    alter table `authenticated` 
+       drop 
        foreign key FK_h52w0f3wjoi68b63wv9vwon57;
 
     alter table `consumer` 
@@ -18,6 +22,10 @@
     alter table `employer` 
        drop 
        foreign key FK_na4dfobmeuxkwf6p75abmb2tr;
+
+    alter table `message` 
+       drop 
+       foreign key `FKn5adlx3oqjna7aupm8gwg3fuj`;
 
     alter table `provider` 
        drop 
@@ -50,6 +58,10 @@
     drop table if exists `employer`;
 
     drop table if exists `investor_record`;
+
+    drop table if exists `message`;
+
+    drop table if exists `message_thread`;
 
     drop table if exists `munoz_bulletin`;
 

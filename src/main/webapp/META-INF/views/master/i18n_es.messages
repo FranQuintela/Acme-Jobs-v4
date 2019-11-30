@@ -55,7 +55,7 @@ master.menu.anonymous.investor-record.top = Top Historial de Inversores
 master.menu.anonymous.company-records.list = Historial de Compañías
 master.menu.anonymous.company-records.list.top = Top Historial de Compañías
 
-	#Annoucement
+	#Announcement
 
 master.menu.anonymous.announcement = Anuncios
 
@@ -82,6 +82,10 @@ master.menu.authenticated.announcement = Anuncios
 	#Historial de Compañiias
 
 master.menu.authenticated.company-records.list = Historial de Compañías
+	
+	#Hilo de mensajes
+
+master.menu.authenticated.message-thread = Hilo de mensajes
 
 # master.menu.administrator ###################################################
 

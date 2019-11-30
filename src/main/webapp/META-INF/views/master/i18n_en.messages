@@ -84,6 +84,10 @@ master.menu.authenticated.announcement = Announcements
 
 master.menu.authenticated.company-records.list = Company's Records
 
+	#Messages Threads
+
+master.menu.authenticated.message-thread = Message Threads
+
 
 # master.menu.administrator ###################################################
 
