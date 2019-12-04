@@ -24,7 +24,8 @@ import lombok.Setter;
 @Getter
 @Setter
 @Table(indexes = {
-	@Index(columnList = "title")
+	@Index(columnList = "title"), @Index(columnList = "messageThread")
+
 })
 public class Message extends DomainEntity {
 
